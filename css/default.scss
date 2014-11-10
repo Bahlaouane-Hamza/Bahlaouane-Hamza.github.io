@@ -1,0 +1,130 @@
+@import "bootstrap";
+@import "hoverEffects";
+
+
+
+body{
+  background: #1A1E24;
+  color:white;
+  font-size: 11px !important;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:500;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #E473DB;
+    text-shadow: none;
+}
+
+::selection {
+    background: #E473DB;
+    text-shadow: none;
+}
+
+a {
+color: #6CC3F4;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+
+header{
+
+  padding: 40px 70px;
+  @media (min-width: $screen-xs) {
+    padding: 20px 30px;
+  }
+  @media (min-width: $screen-sm) {
+    padding: 30px 50px;
+  }
+  background: #00BBE4;
+  border-right: 10px solid rgba(22,164,196, 0.75);
+  border-left: 10px solid rgba(22,164,196, 0.75);
+  border-bottom: 10px solid rgba(22,164,196, 0.75);
+  -webkit-box-shadow: 5px 0px 8px rgba(35, 35, 35, 0.3);
+  -moz-box-shadow:    5px 0px 8px rgba(35, 35, 35, 0.3);
+  box-shadow:         5px 0px 8px rgba(35, 35, 35, 0.3);
+
+  h1{
+      text-align: right;
+      text-transform: uppercase;
+      font-size: 430%;
+      font-weight: 800;
+      text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.2);
+      line-height: 100%;
+      -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+      -webkit-text-size-adjust: 100%;
+  }
+  p.slogan {
+    text-align: right;
+    color: #414141;
+    margin-bottom: 1.5%;
+  }
+  .about-me-centered{
+    margin: 0 auto;
+    float: none;
+  }
+
+
+  #logo{
+      img{
+        height:190px;
+      }
+  }
+  #about-me{
+
+    p.about-me {
+      font-size: 170%;
+    }
+
+  }
+
+  a.contact {
+    padding: 3px 25px;
+    position: relative;
+    top: 4px;
+    text-transform: uppercase;
+    background: url(../img/arrow.png) 0 0/100% no-repeat;
+    margin-left: .4em;
+    -webkit-transition: margin .15s ease-out;
+    -moz-transition: margin .15s ease-out;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    &:hover{
+      color: #00BBE4;
+      margin-left: .6em;
+      margin-right: -.2em;
+    }
+  }
+
+}
+
+section{
+  h2.portfolio {
+    margin-bottom: 20px;
+    font-size: 250%;
+    font-weight: 300;
+    line-height: 100%;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+    -webkit-text-size-adjust: 100%;
+
+    &:before {
+      border-bottom: 4px solid #00BBE4;
+      content: '';
+      position: absolute;
+      padding: 2.2% 2.5%;
+    }
+  }
+
+}

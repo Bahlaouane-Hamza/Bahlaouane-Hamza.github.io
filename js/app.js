@@ -1,3 +1,7 @@
+[].slice.call( document.querySelectorAll('.grid a') ).forEach( function(el) {
+				el.onclick = function() { return false; }
+} );
+
 var projectView = false,
 currentID = -1,
 currentPageHeight = -1,
