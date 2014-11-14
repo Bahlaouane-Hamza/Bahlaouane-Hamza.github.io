@@ -24,25 +24,34 @@ module.exports = function(grunt) {
     },
     concat: {
       options: {
-        separator: ';'+"\n",
+        separator: ';'+"\n"
       },
       dist: {
-        src: ['bower_components/jquery/dist/jquery.min.js', 'bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js', 'js/jquery.slimscroll.min.js', 'js/app.min.js'],
-        dest: 'js/output.js',
+        src: ['bower_components/jquery/dist/jquery.min.js', 'bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js', 'js/app.min.js'],
+        dest: 'js/output.js'
       }
     },
     watch:{
       sass: {
         files: ['css/*.scss'],
         tasks: ['sass'],
+		options: {
+		  livereload: 63342
+		}
       },
       css: {
         files: ['css/default.css'],
-        tasks: ['cssmin:combine']
+        tasks: ['cssmin:combine'],
+		options: {
+		  livereload: 63342
+		}
       },
       scripts: {
         files: ['js/app.js'],
-        tasks: ['uglify', 'concat']
+        tasks: ['uglify', 'concat'],
+		options: {
+		  livereload: 63342
+		}
       }
     }
 

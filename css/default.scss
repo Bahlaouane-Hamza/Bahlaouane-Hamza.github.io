@@ -1,15 +1,16 @@
 @import "bootstrap";
 @import "hoverEffects";
-
+@import "common";
 
 
 body{
-  background: #1A1E24;
-  color:white;
-  font-size: 11px !important;
-  font-family: 'Open Sans', sans-serif;
-  font-weight:500;
+	background: #FFF;
+	font-size: 14px !important;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height: 20px;
+	color: #333;
 }
+
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -18,50 +19,60 @@ body{
  */
 
 ::-moz-selection {
-    background: #E473DB;
+	background: #e74c3c;
+	color: white;
     text-shadow: none;
 }
 
 ::selection {
-    background: #E473DB;
+	background: #e74c3c;
+	color: white;
     text-shadow: none;
 }
 
 a {
-color: #6CC3F4;
+color: #e74c3c;
   &:hover{
     text-decoration: underline;
+	  color: #e73f2a;
   }
 }
 
-
 header{
 
-  padding: 40px 70px;
+  padding: 60px 70px;
   @media (min-width: $screen-xs) {
-    padding: 20px 30px;
+    padding: 30px 30px;
   }
   @media (min-width: $screen-sm) {
-    padding: 30px 50px;
+    padding: 40px 50px;
   }
-  background: #00BBE4;
+  /*background: #00BBE4;
   border-right: 10px solid rgba(22,164,196, 0.75);
   border-left: 10px solid rgba(22,164,196, 0.75);
-  border-bottom: 10px solid rgba(22,164,196, 0.75);
-  -webkit-box-shadow: 5px 0px 8px rgba(35, 35, 35, 0.3);
-  -moz-box-shadow:    5px 0px 8px rgba(35, 35, 35, 0.3);
-  box-shadow:         5px 0px 8px rgba(35, 35, 35, 0.3);
+  border-bottom: 10px solid rgba(22,164,196, 0.75);*/
+	//@include box-shadow(5px 0px 8px rgba(35, 35, 35, 0.3));
+
 
   h1{
       text-align: right;
       text-transform: uppercase;
-      font-size: 430%;
+      font-size: 330%;
+	  color:#e74c3c;
       font-weight: 800;
-      text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.2);
+      //text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.2);
       line-height: 100%;
       -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
       -webkit-text-size-adjust: 100%;
   }
+	h2{
+		font-family: "Open Sans",sans-serif;
+		font-size: 24px;
+		margin-bottom: 20px;
+		color: #1a394f;
+
+		line-height: 40px;
+	}
   p.slogan {
     text-align: right;
     color: #414141;
@@ -75,37 +86,30 @@ header{
 
   #logo{
       img{
-        height:190px;
+        height:130px;
+		  margin: 0 auto;
       }
   }
   #about-me{
 
     p.about-me {
-      font-size: 170%;
+		color: #738890;
+		font-size: 16px;
+		line-height: 30px;
     }
 
   }
 
-  a.contact {
-    padding: 3px 25px;
-    position: relative;
-    top: 4px;
-    text-transform: uppercase;
-    background: url(../img/arrow.png) 0 0/100% no-repeat;
-    margin-left: .4em;
-    -webkit-transition: margin .15s ease-out;
-    -moz-transition: margin .15s ease-out;
-    text-decoration: none;
-    color: #FFF;
-    font-weight: 300;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;
-    &:hover{
-      color: #00BBE4;
-      margin-left: .6em;
-      margin-right: -.2em;
-    }
-  }
+	.work{
+		margin-top: 25px;
+		.text p {
+			font-family: 'Open Sans', sans-serif;
+			font-size: 18px;
+			color: #1a394f;
+			font-weight: 600;
+		}
+	}
+
 
 }
 
@@ -120,11 +124,79 @@ section{
     -webkit-text-size-adjust: 100%;
 
     &:before {
-      border-bottom: 4px solid #00BBE4;
+      border-bottom: 4px solid #e74c3c;
       content: '';
       position: absolute;
       padding: 2.2% 2.5%;
+		@media (min-width: $screen-xs) {
+			padding: 3.2% 2.5%;
+		}
+		@media (min-width: $screen-sm) {
+			padding: 3.2% 2.5%;
+		}
     }
   }
 
+}
+
+
+/*
+Form
+*/
+
+.the-form {
+	margin-top: 30px;
+}
+
+.the-form input[type=text],.the-form input[type=email] {
+	width: 250px;
+	margin-right: 24px;
+}
+.the-form input[type=text],.the-form input[type=email], .the-form textarea {
+	width: 100%;
+	padding: 10px 15px;
+	border: 1px solid #c1c1c1;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.14);
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.14);
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.14);
+}
+
+
+.the-form .required {
+	background: url("../img/select2.png") #fff no-repeat 100% -36px;
+}
+
+.the-form textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.the-form input[type=submit] {
+	background-color: #e74c3c;
+	color: #fff;
+	font-size: 13px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	border: 1px solid #D03221;
+	padding: 10px 30px;
+	float: right;
+}
+
+.contact {
+	margin-top: 35px;
+	h2 {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 21px;
+		color: #1a394f;
+	}
+	.contact p {
+		font-size: 14px;
+		line-height: 28px;
+		color: #5d7179;
+	}
 }

@@ -8,9 +8,7 @@
   "description": "Packages for my protfolio",
   "keywords": [
     "Bootstrap",
-    "jQuery",
-    "Modernizr",
-    "Font-Awesome"
+    "jQuery"
   ],
   "license": "MIT",
   "private": true,
@@ -22,8 +20,6 @@
     "tests"
   ],
   "dependencies": {
-    "font-awesome": "~4.2.0",
-    "modernizr": "~2.8.3",
     "jquery": "~2.1.1",
     "bootstrap-sass-official": "~3.3.0"
   }
