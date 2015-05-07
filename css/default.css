@@ -3336,4 +3336,183 @@ Form
     line-height: 28px;
     color: #5d7179; }
 
+.clear {
+  clear: both; }
+
+/*
+* Taken from:
+* https://scotch.io/quick-tips/default-sizes-for-twitter-bootstraps-media-queries
+*/
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  header {
+    padding: 20px 5px; }
+
+  header h1 {
+    font-size: 130%;
+    font-weight: 800;
+    line-height: 100%; }
+
+  header h2 {
+    font-size: 15px;
+    margin-bottom: 14px;
+    line-height: 25px; }
+
+  header #about-me p.about-me {
+    font-size: 14px;
+    line-height: 26px; }
+
+  section h2.portfolio {
+    margin-bottom: 10px;
+    font-size: 160%;
+    font-weight: 300;
+    line-height: 97%; }
+
+  .grid figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 360px;
+    width: 100%; } }
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  header {
+    padding: 60px 70px; }
+
+  header h1 {
+    font-size: 330%;
+    font-weight: 800;
+    line-height: 100%; }
+
+  header h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 40px; }
+
+  header #about-me p.about-me {
+    font-size: 16px;
+    line-height: 30px; }
+
+  section h2.portfolio {
+    margin-bottom: 20px;
+    font-size: 250%;
+    font-weight: 300;
+    line-height: 100%; }
+
+  .grid figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 320px;
+    max-width: 480px;
+    max-height: 360px;
+    width: 48%; } }
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  header {
+    padding: 60px 70px; }
+
+  header h1 {
+    font-size: 330%;
+    font-weight: 800;
+    line-height: 100%; }
+
+  header h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 40px; }
+
+  header #about-me p.about-me {
+    font-size: 16px;
+    line-height: 30px; }
+
+  section h2.portfolio {
+    margin-bottom: 20px;
+    font-size: 250%;
+    font-weight: 300;
+    line-height: 100%; }
+
+  .grid figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 320px;
+    max-width: 480px;
+    max-height: 360px;
+    width: 48%; } }
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  header {
+    padding: 60px 70px; }
+
+  header h1 {
+    font-size: 330%;
+    font-weight: 800;
+    line-height: 100%; }
+
+  header h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 40px; }
+
+  header #about-me p.about-me {
+    font-size: 16px;
+    line-height: 30px; }
+
+  section h2.portfolio {
+    margin-bottom: 20px;
+    font-size: 250%;
+    font-weight: 300;
+    line-height: 100%; }
+
+  .grid figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 320px;
+    max-width: 480px;
+    max-height: 360px;
+    width: 48%; } }
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  header {
+    padding: 60px 70px; }
+
+  header h1 {
+    font-size: 330%;
+    font-weight: 800;
+    line-height: 100%; }
+
+  header h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 40px; }
+
+  header #about-me p.about-me {
+    font-size: 16px;
+    line-height: 30px; }
+
+  section h2.portfolio {
+    margin-bottom: 20px;
+    font-size: 250%;
+    font-weight: 300;
+    line-height: 100%; }
+
+  .grid figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 320px;
+    max-width: 480px;
+    max-height: 360px;
+    width: 48%; } }
+
 /*# sourceMappingURL=default.css.map */
