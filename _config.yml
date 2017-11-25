@@ -84,3 +84,5 @@ theme: jekyll-theme-type
 exclude:
   - Gemfile
   - Gemfile.lock
+  - "bower_components"
+  - "bower.json"
