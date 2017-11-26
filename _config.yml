@@ -85,4 +85,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - "bower_components"
+  - "portfolio/bower_components"
   - "bower.json"

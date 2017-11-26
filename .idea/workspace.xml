@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db67f406-b8e9-4a38-b31d-55fe86f25257" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-11-28-markdown-and-html.md" afterPath="$PROJECT_DIR$/_posts/2014-11-28-markdown-and-html.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/404.html" afterPath="$PROJECT_DIR$/_site/404.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/base/_global.scss" afterPath="$PROJECT_DIR$/_sass/base/_global.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/includes/_header.scss" afterPath="$PROJECT_DIR$/_sass/includes/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/layouts/_index.scss" afterPath="$PROJECT_DIR$/_sass/layouts/_index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/base/_variables.scss" afterPath="$PROJECT_DIR$/_sass/base/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.md" afterPath="$PROJECT_DIR$/about.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/11/29/feature-images.html" afterPath="$PROJECT_DIR$/_site/2014/11/29/feature-images.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="$PROJECT_DIR$/_site/about/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/assets/css/main.css.map" afterPath="$PROJECT_DIR$/_site/assets/css/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css.map" afterPath="$PROJECT_DIR$/assets/css/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/assets/css/main.css" afterPath="$PROJECT_DIR$/_site/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/11/28/markdown-and-html.html" afterPath="$PROJECT_DIR$/_site/2014/11/28/markdown-and-html.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2014/11/30/sample-post.html" afterPath="$PROJECT_DIR$/_site/2014/11/30/sample-post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/search.html" afterPath="$PROJECT_DIR$/_site/search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2017/11/25/slug-of-the-post.html" afterPath="$PROJECT_DIR$/_site/2017/11/25/slug-of-the-post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/tags.html" afterPath="$PROJECT_DIR$/_site/tags.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Bahlaouane-Hamza.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,8 +75,8 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38338658" vertical-offset="0" max-vertical-offset="1410">
-              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.85623" vertical-offset="784" max-vertical-offset="1425">
+              <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -689,8 +667,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38338658" vertical-offset="0" max-vertical-offset="1410">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.85623" vertical-offset="784" max-vertical-offset="1425">
+          <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
           <folding />
         </state>
       </provider>
