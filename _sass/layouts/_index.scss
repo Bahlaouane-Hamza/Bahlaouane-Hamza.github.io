@@ -12,6 +12,16 @@
 .call-out p:last-child {
   margin-bottom: 0;
 }
+
+.call-out h2 {
+  margin: 0.17em 0;
+}
+.call-out .avatar {
+  border-radius: 50%;
+  max-width: 5em;
+  border: 4px solid rgb(255, 255, 255);
+}
+
 // Post listing
 .posts {
   .post-teaser {

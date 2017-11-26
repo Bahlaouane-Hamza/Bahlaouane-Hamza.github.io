@@ -5,18 +5,18 @@ url: "https://bahlaouane-hamza.github.io/"
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Hamza Bahlaouane - Senior Drupal Developer
+  title: Hamza Bahlaouane - Web Developer PHP, Drupal, Symfony, Frontend
   avatar: assets/img/avatar.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  description: "Hamza Bahlaouane - Web Developer PHP, Drupal, Symfony, Frontend" # used by search engines
 
   # Header and footer text
   header_title: Hamza Bahlaouane
   header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+     <img src="/assets/img/avatar.png" class="avatar" />
+     <h2>Hamza Bahlaouane</h2>
+     <p>Web Developer PHP, Drupal, Symfony, Frontend</p>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
@@ -70,7 +70,7 @@ theme_settings:
   post_navigation: false
 
 # PAGINATION
-paginate: 5
+paginate: 2
 paginate_path: "blog/page:num"
 
 # BUILD SETTINGS

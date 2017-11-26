@@ -2,7 +2,7 @@
 <html class="no-js">
   <head>
 	<meta charset="utf-8">
-	<title>Markdown and HTML | Hamza Bahlaouane - Senior Drupal Developer</title>
+	<title>Markdown and HTML | Hamza Bahlaouane - Web Developer PHP, Drupal, Symfony, Frontend</title>
 	<meta name="description" content="Jekyll supports the use of Markdown with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about te...">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,7 +16,7 @@
 	<link rel="canonical" href="/2014/11/28/markdown-and-html.html">
 
 	<!-- RSS -->
-	<link rel="alternate" type="application/atom+xml" title="Hamza Bahlaouane - Senior Drupal Developer" href="/feed.xml" />
+	<link rel="alternate" type="application/atom+xml" title="Hamza Bahlaouane - Web Developer PHP, Drupal, Symfony, Frontend" href="/feed.xml" />
 
 	<!-- Font Awesome -->
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -38,43 +38,50 @@
 
   <body>
     <header class="site-header">
-	<div class="branding">
-		
-		<a href="/">
-			<img class="avatar" src="/assets/img/avatar.png" alt=""/>
-		</a>
-		
-		<h1 class="site-title">
-			<a href="/">Hamza Bahlaouane</a>
-		</h1>
-	</div>
+    <nav class="site-nav site-nav--primary">
+        <ul>
+            <li>
+                <a class="page-link" href="/">
+                    Blog
+                </a>
+            </li>
+            <li>
+                <a class="page-link" href="/portfolio">
+                    Portfolio
+                </a>
+            </li>
+            
+            
+            
+            
+            <li>
+                <a class="page-link" href="/about/">
+                    About
+                </a>
+            </li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li>
+                <a class="page-link" href="/tags.html">
+                    tags
+                </a>
+            </li>
+            
+            
+            
+            
+        </ul>
+    </nav>
+
 	<nav class="site-nav">
 		<ul>
-			
-			
-			
-			
-			<li>
-				<a class="page-link" href="/about/">
-					About
-				</a>
-			</li>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			<li>
-				<a class="page-link" href="/tags.html">
-					tags
-				</a>
-			</li>
-			
-			
 			<!-- Social icons from Font Awesome, if enabled  -->
 			
 
@@ -177,16 +184,14 @@
 
 <p>Highlighting for code in Jekyll is done using Pygments or Rouge. This theme makes use of Rouge by default.</p>
 
-<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="c1">// count to ten</span>
-<span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="mi">10</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">i</span><span class="p">);</span>
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="nt">a</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="nv">$link-color</span><span class="p">;</span>
+  <span class="nl">text-decoration</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
 <span class="p">}</span>
-
-<span class="c1">// count to twenty</span>
-<span class="kd">var</span> <span class="nx">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-<span class="k">while</span> <span class="p">(</span><span class="nx">j</span> <span class="o">&lt;</span> <span class="mi">20</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">j</span><span class="o">++</span><span class="p">;</span>
-    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">j</span><span class="p">);</span>
+<span class="nc">.nav</span> <span class="p">{</span>
+  <span class="nl">list-style</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+  <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
 <span class="p">}</span></code></pre></figure>
 
 <p>Type Theme uses KaTeX to display maths. Equations such as <script type="math/tex">S_n = a \times \frac{1-r^n}{1-r}</script> can be displayed inline.</p>

@@ -18,17 +18,15 @@ Here's an example of an image, which is included using Markdown:
 
 Highlighting for code in Jekyll is done using Pygments or Rouge. This theme makes use of Rouge by default.
 
-{% highlight js %}
-// count to ten
-for (var i = 1; i <= 10; i++) {
-    console.log(i);
+{% highlight scss %}
+a {
+  color: $link-color;
+  text-decoration: none;
 }
-
-// count to twenty
-var j = 0;
-while (j < 20) {
-    j++;
-    console.log(j);
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 {% endhighlight %}
 

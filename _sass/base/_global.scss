@@ -127,3 +127,11 @@ img[align=left] {
 img[align=right] {
   margin-left: 3%;
 }
+
+// Code highlight.
+figure.highlight {
+  padding: 0 15px;
+  border: 5px solid #d8d8d8;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
